@@ -4,7 +4,7 @@ import requests, time
 APIKey = '74ba0d3e-ab8e-46ee-9285-5c5ca9342e76'
 BotAPIToken = '5518808804:AAGGqq-Oh8LA0acf1st6AyI_oHCMagK65_U'
 chat_id = '772715406'
-limit, time_intervel = 59000, 5*60
+limit, time_intervel = 59000, 60
 
 def get_price():
     url = 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
